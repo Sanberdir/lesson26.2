@@ -1,0 +1,5 @@
+// 26.2	2026-10-11T18:44:53.5317089	Tags for minecraft:block mod id lesson26_2
+81af94d641e0f518314cfe0e55f41f5c46035b38 data/minecraft/tags/block/mineable/pickaxe.json
+5df4f65b09be20fd7aae4e6eb31ff6e988c3442a data/minecraft/tags/block/needs_diamond_tool.json
+afeaebc3adca15298efd7567a11b86f9114d087b data/minecraft/tags/block/needs_iron_tool.json
+cccb326dcc0296ebd7af7b06099856e6ccc28491 data/neoforge/tags/block/needs_netherite_tool.json
