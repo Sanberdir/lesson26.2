@@ -10,6 +10,7 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 import ru.imaginaerum.lesson26_2.datagen.ModBlockLootTableProvider;
 import ru.imaginaerum.lesson26_2.datagen.ModBlockTagsProvider;
 import ru.imaginaerum.lesson26_2.datagen.ModModelProvider;
+import ru.imaginaerum.lesson26_2.datagen.ModRecipeProvider;
 
 import java.util.Collections;
 import java.util.List;
@@ -27,5 +28,7 @@ public class Lesson26_2DataGen {
         generator.addProvider(true, new ModBlockTagsProvider(packOutput, lookupProvider));
         generator.addProvider(true, new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
+
+        generator.addProvider(true, new ModRecipeProvider.Runner(packOutput, lookupProvider));
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "azurite",
+  "ingredients": [
+    "lesson26_2:azurite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "lesson26_2:azurite"
+  }
+}

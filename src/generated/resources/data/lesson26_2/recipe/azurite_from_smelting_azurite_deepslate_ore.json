@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.25,
+  "group": "azurite",
+  "ingredient": "lesson26_2:azurite_deepslate_ore",
+  "result": {
+    "id": "lesson26_2:azurite"
+  }
+}
