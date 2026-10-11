@@ -36,6 +36,7 @@ public class LessonTabs {
                         // Добавляйте другие предметы здесь
                     })
                     .build());
+
     public static final Supplier<CreativeModeTab> LESSON_TAB_BLOCKS = CREATIVE_LESSON_TABS.register("lesson_tab_blocks",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(LessonBlocks.AZURITE_BLOCK))
                     .title(Component.translatable("itemGroup.lesson26_2.lesson_tab_blocks"))

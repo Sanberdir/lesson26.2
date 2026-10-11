@@ -20,6 +20,7 @@ public class LessonBlocks {
     public static final DeferredBlock<Block> AZURITE_BLOCK = registerBlock("azurite_block",
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
     public static final DeferredBlock<Block> RAW_AZURITE_BLOCK = registerBlock("raw_azurite_block",
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -46,7 +47,6 @@ public class LessonBlocks {
         registerBlockItem(name, toReturn);
         return toReturn;
     }
-
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
         LessonItems.LESSON_ITEMS.registerItem(name, properties -> new BlockItem(block.get(), properties.useBlockDescriptionPrefix()));
     }
