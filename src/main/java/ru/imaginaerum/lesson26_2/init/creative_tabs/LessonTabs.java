@@ -16,8 +16,8 @@ public class LessonTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Lesson26_2.MODID);
 
     // Регистрируем новую вкладку
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB =
-            CREATIVE_LESSON_TABS.register("lesson_26_2", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LESSON_TAB_ITEMS =
+            CREATIVE_LESSON_TABS.register("lesson_tab_items", () -> CreativeModeTab.builder()
                     // Заголовок вкладки (ключ локализации)
                     .title(Component.translatable("itemGroup.lesson26_2.lesson_tab"))
                     // Иконка вкладки (можно использовать любой предмет)

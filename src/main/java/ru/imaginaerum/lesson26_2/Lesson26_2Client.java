@@ -21,5 +21,4 @@ public class Lesson26_2Client {
     static void onClientSetup(FMLClientSetupEvent event) {
 
     }
-
 }

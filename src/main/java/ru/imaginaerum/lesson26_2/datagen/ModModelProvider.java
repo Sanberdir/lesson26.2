@@ -17,7 +17,5 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(LessonItems.AZURITE.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(LessonItems.RAW_AZURITE.get(), ModelTemplates.FLAT_ITEM);
-
-
     }
 }

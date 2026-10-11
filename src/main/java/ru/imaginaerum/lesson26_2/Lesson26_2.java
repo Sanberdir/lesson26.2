@@ -17,7 +17,7 @@ public class Lesson26_2 {
 
     public Lesson26_2(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
-        LessonItems.ITEMS.register(modEventBus);
+        LessonItems.LESSON_ITEMS.register(modEventBus);
         LessonTabs.CREATIVE_LESSON_TABS.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -31,5 +31,4 @@ public class Lesson26_2 {
     public void onServerStarting(ServerStartingEvent event) {
 
     }
-
 }
