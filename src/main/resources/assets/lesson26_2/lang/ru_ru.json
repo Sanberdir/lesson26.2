@@ -1,5 +1,13 @@
 {
   "item.lesson26_2.azurite": "Азурит",
   "item.lesson26_2.raw_azurite": "Рудный азурит",
-  "itemGroup.lesson26_2.lesson_tab": "Учебная вкладка"
+  "itemGroup.lesson26_2.lesson_tab_items": "Учебная вкладка предметы",
+  "itemGroup.lesson26_2.lesson_tab_blocks": "Учебная вкладка блоки",
+
+  "block.lesson26_2.azurite_block": "Азуритовый блок",
+  "block.lesson26_2.raw_azurite_block": "Блок необработанного азурита",
+  "block.lesson26_2.azurite_ore": "Азуритовая руда",
+  "block.lesson26_2.azurite_deepslate_ore": "Глубиносланцевая азуритовая руда",
+  "block.lesson26_2.azurite_nether_ore": "Азуритовая руда незера",
+  "block.lesson26_2.azurite_end_ore": "Азуритовая руда энда"
 }

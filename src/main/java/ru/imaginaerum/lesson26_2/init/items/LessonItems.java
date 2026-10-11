@@ -10,4 +10,6 @@ public class LessonItems {
 
     public static final DeferredItem<Item> AZURITE = LESSON_ITEMS.registerSimpleItem("azurite");
     public static final DeferredItem<Item> RAW_AZURITE = LESSON_ITEMS.registerSimpleItem("raw_azurite");
+
+
 }

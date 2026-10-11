@@ -1,5 +1,13 @@
 {
   "item.lesson26_2.azurite": "Azurite",
   "item.lesson26_2.raw_azurite": "Raw Azurite",
-  "itemGroup.lesson26_2.lesson_tab": "Lesson Tab"
+  "itemGroup.lesson26_2.lesson_tab_items": "Lesson Tab Items",
+  "itemGroup.lesson26_2.lesson_tab_blocks": "Lesson Tab Blocks",
+
+  "block.lesson26_2.azurite_block": "Block of Azurite",
+  "block.lesson26_2.raw_azurite_block": "Block of Raw Azurite",
+  "block.lesson26_2.azurite_ore": "Azurite Ore",
+  "block.lesson26_2.azurite_deepslate_ore": "Azurite Deepslate Ore",
+  "block.lesson26_2.azurite_nether_ore": "Azurite Nether Ore",
+  "block.lesson26_2.azurite_end_ore": "Azurite End Ore"
 }

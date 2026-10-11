@@ -8,6 +8,7 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import ru.imaginaerum.lesson26_2.init.blocks.LessonBlocks;
 import ru.imaginaerum.lesson26_2.init.creative_tabs.LessonTabs;
 import ru.imaginaerum.lesson26_2.init.items.LessonItems;
 
@@ -18,6 +19,7 @@ public class Lesson26_2 {
     public Lesson26_2(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
         LessonItems.LESSON_ITEMS.register(modEventBus);
+        LessonBlocks.LESSON_BLOCKS.register(modEventBus);
         LessonTabs.CREATIVE_LESSON_TABS.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

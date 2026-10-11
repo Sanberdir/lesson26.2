@@ -6,6 +6,7 @@ import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.data.PackOutput;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
+import ru.imaginaerum.lesson26_2.init.blocks.LessonBlocks;
 import ru.imaginaerum.lesson26_2.init.items.LessonItems;
 
 public class ModModelProvider extends ModelProvider {
@@ -17,5 +18,13 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(LessonItems.AZURITE.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(LessonItems.RAW_AZURITE.get(), ModelTemplates.FLAT_ITEM);
+
+        /* BLOCKS */
+        blockModels.createTrivialCube(LessonBlocks.AZURITE_BLOCK.get());
+        blockModels.createTrivialCube(LessonBlocks.RAW_AZURITE_BLOCK.get());
+        blockModels.createTrivialCube(LessonBlocks.AZURITE_ORE.get());
+        blockModels.createTrivialCube(LessonBlocks.AZURITE_DEEPSLATE_ORE.get());
+        blockModels.createTrivialCube(LessonBlocks.AZURITE_NETHER_ORE.get());
+        blockModels.createTrivialCube(LessonBlocks.AZURITE_END_ORE.get());
     }
 }
