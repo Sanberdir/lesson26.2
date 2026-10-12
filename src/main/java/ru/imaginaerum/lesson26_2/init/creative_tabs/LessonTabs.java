@@ -33,6 +33,7 @@ public class LessonTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(LessonItems.AZURITE.get());
                         output.accept(LessonItems.RAW_AZURITE.get());
+                        output.accept(LessonItems.METAL_DETECTOR.get());
                         // Добавляйте другие предметы здесь
                     })
                     .build());

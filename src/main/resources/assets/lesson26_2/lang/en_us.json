@@ -1,8 +1,14 @@
 {
   "item.lesson26_2.azurite": "Azurite",
   "item.lesson26_2.raw_azurite": "Raw Azurite",
+  "item.lesson26_2.metal_detector": "Metal Detector",
   "itemGroup.lesson26_2.lesson_tab_items": "Lesson Tab Items",
   "itemGroup.lesson26_2.lesson_tab_blocks": "Lesson Tab Blocks",
+
+  "item.tutorialmod.metal_detector.no_valuables": "No Valuables Found!",
+
+  "message.yourmod.valuables_found": "Valuables Found: %s at (%s, %s, %s)",
+
 
   "block.lesson26_2.azurite_block": "Block of Azurite",
   "block.lesson26_2.raw_azurite_block": "Block of Raw Azurite",
