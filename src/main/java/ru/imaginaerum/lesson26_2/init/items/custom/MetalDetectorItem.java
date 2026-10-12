@@ -27,14 +27,14 @@ public class MetalDetectorItem extends Item {
         BlockPos positionClicked = context.getClickedPos();
         Player player = context.getPlayer();
 
-        if(!level.isClientSide()) {
+        if (!level.isClientSide()) {
             // We are on the Server
             boolean foundBlock = false;
 
-            for(int i = 0; i <= positionClicked.getY() + 64; i++) {
+            for (int i = 0; i <= positionClicked.getY() + 64; i++) {
                 BlockState blockState = level.getBlockState(positionClicked.below(i));
 
-                if(isValuableBlock(blockState)) {
+                if (isValuableBlock(blockState)) {
                     outputValuableCoordinates(positionClicked.below(i), player, blockState.getBlock());
                     foundBlock = true;
 
@@ -45,8 +45,6 @@ public class MetalDetectorItem extends Item {
                             SoundSource.BLOCKS, 1.5f, 1f);
                     // spawn particles
                     spawnFoundParticles(level, positionClicked, blockState);
-
-
                     break;
                 }
             }
@@ -60,7 +58,7 @@ public class MetalDetectorItem extends Item {
     }
 
     private void spawnFoundParticles(Level level, BlockPos positionClicked, BlockState blockState) {
-        for(int i = 0; i < 20; i++) {
+        for (int i = 0; i < 20; i++) {
             ServerLevel serverLevel = (ServerLevel) level;
 
             serverLevel.sendParticles(new BlockParticleOption(ParticleTypes.BLOCK, blockState),
