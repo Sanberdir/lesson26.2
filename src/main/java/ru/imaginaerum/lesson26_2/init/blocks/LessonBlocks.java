@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
+import ru.imaginaerum.lesson26_2.init.blocks.custom.MagicBlock;
 import ru.imaginaerum.lesson26_2.init.items.LessonItems;
 
 import java.util.function.Function;
@@ -39,7 +40,9 @@ public class LessonBlocks {
             (properties) -> new DropExperienceBlock(UniformInt.of(5, 9),
                     properties.strength(7f).requiresCorrectToolForDrops()));
 
-
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            properties -> new MagicBlock(properties.strength(2f)
+                    .requiresCorrectToolForDrops().sound(SoundType.DECORATED_POT)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
