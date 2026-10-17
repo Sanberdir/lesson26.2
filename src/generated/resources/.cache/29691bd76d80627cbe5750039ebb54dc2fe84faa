@@ -1,4 +1,4 @@
-// 26.2	2026-10-14T19:31:18.0425961	Model Definitions - lesson26_2
+// 26.2	2026-10-17T18:00:43.0068683	Model Definitions - lesson26_2
 3e5d88f8eb395c56fd2e5b0eeb2c0b5a37c251b8 assets/lesson26_2/blockstates/azurite_block.json
 b0519bd9a1e2433b53dea6889015b99c6569e0a0 assets/lesson26_2/blockstates/azurite_deepslate_ore.json
 4711cf555956750cbfc65277508aaec4b44c2b42 assets/lesson26_2/blockstates/azurite_end_ore.json
@@ -12,6 +12,7 @@ b0519bd9a1e2433b53dea6889015b99c6569e0a0 assets/lesson26_2/blockstates/azurite_d
 725a6f99fed13aee11c517ba3bf5b822b8889be1 assets/lesson26_2/items/azurite_end_ore.json
 b751a245aa7d40cce28257b2559e9792dc50c37c assets/lesson26_2/items/azurite_nether_ore.json
 40f02db43fc4d25a48bd2bd6984d36f1e964b2c7 assets/lesson26_2/items/azurite_ore.json
+5dc96db6bc78ae3b54dab5c368a9eb80504a89b4 assets/lesson26_2/items/end_fire_starter.json
 6cbe0db1cb891a42787c5ed5b489c0a84bda9050 assets/lesson26_2/items/magic_block.json
 e0f05624562803444aed239f419b7c6401cf83f8 assets/lesson26_2/items/metal_detector.json
 1dc4adb6415b7874e0d60078801d3a6b041b43b4 assets/lesson26_2/items/onion.json
@@ -25,6 +26,7 @@ d7de4affe8bb791c8758a28ad52cb2bb5862fe0b assets/lesson26_2/models/block/azurite_
 cd07b63a905c37ad546f771101f3d4a116650f92 assets/lesson26_2/models/block/magic_block.json
 fedd49eeaf0cd091c8017a378e249941b766bba3 assets/lesson26_2/models/block/raw_azurite_block.json
 e414216fa94f52d87c69636af7ec567fada70775 assets/lesson26_2/models/item/azurite.json
+2a959b07afc8715d8ed9c6a302cb1467467198d0 assets/lesson26_2/models/item/end_fire_starter.json
 b333ec1b31d7d84fd3990f43264740803fe9021a assets/lesson26_2/models/item/metal_detector.json
 c7df4453b787a7ff8831476856a9ea4434bd6521 assets/lesson26_2/models/item/onion.json
 336738b78ea2652cd4ee6c4b2a895a8bfe192de2 assets/lesson26_2/models/item/raw_azurite.json

@@ -7,10 +7,7 @@ import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
-import ru.imaginaerum.lesson26_2.datagen.ModBlockLootTableProvider;
-import ru.imaginaerum.lesson26_2.datagen.ModBlockTagsProvider;
-import ru.imaginaerum.lesson26_2.datagen.ModModelProvider;
-import ru.imaginaerum.lesson26_2.datagen.ModRecipeProvider;
+import ru.imaginaerum.lesson26_2.datagen.*;
 
 import java.util.Collections;
 import java.util.List;
@@ -30,5 +27,6 @@ public class Lesson26_2DataGen {
                 List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
 
         generator.addProvider(true, new ModRecipeProvider.Runner(packOutput, lookupProvider));
+        generator.addProvider(true, new ModDataMapProvider(packOutput, lookupProvider));
     }
 }
