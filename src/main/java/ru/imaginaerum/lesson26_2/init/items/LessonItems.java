@@ -5,6 +5,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
 import ru.imaginaerum.lesson26_2.init.items.custom.MetalDetectorItem;
+import ru.imaginaerum.lesson26_2.init.items.food.LessonFood;
 
 public class LessonItems {
     public static final DeferredRegister.Items LESSON_ITEMS = DeferredRegister.createItems(Lesson26_2.MODID);
@@ -14,4 +15,7 @@ public class LessonItems {
 
     public static final DeferredItem<Item> METAL_DETECTOR = LESSON_ITEMS.registerItem("metal_detector",
             properties -> new MetalDetectorItem(properties.durability(64)));
+
+    public static final DeferredItem<Item> ONION = LESSON_ITEMS.registerItem("onion",
+            properties -> new Item(properties.food(LessonFood.ONION, LessonFood.ONION_CONSUMABLE)));
 }
