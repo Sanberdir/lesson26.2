@@ -18,5 +18,10 @@
   "block.lesson26_2.azurite_deepslate_ore": "Azurite Deepslate Ore",
   "block.lesson26_2.azurite_nether_ore": "Azurite Nether Ore",
   "block.lesson26_2.magic_block": "Magic Block",
-  "block.lesson26_2.azurite_end_ore": "Azurite End Ore"
+  "block.lesson26_2.azurite_end_ore": "Azurite End Ore",
+
+  "tooltip.lesson26_2.metal_detector.shift_down": "Discover valuables by clicking on Blocks",
+  "tooltip.lesson26_2.metal_detector": "Press §eShift§r for more Information"
+
+
 }
