@@ -7,6 +7,7 @@ import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
 import ru.imaginaerum.lesson26_2.init.blocks.LessonBlocks;
+import ru.imaginaerum.lesson26_2.init.tags.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -32,5 +33,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(LessonBlocks.AZURITE_NETHER_ORE.getKey());
         tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(LessonBlocks.AZURITE_END_ORE.getKey());
+
+        tag(ModTags.Blocks.METAL_DETECTABLES)
+                .addTag(Tags.Blocks.ORES);
     }
 }

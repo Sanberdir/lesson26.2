@@ -18,6 +18,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import ru.imaginaerum.lesson26_2.init.items.LessonItems;
+import ru.imaginaerum.lesson26_2.init.tags.ModTags;
 
 public class MagicBlock extends Block {
     public MagicBlock(Properties properties) {
@@ -50,6 +51,6 @@ public class MagicBlock extends Block {
     }
 
     private boolean isValidItem(ItemStack item) {
-        return item.is(Items.IRON_INGOT) || item.is(LessonItems.AZURITE) || item.is(Items.REDSTONE);
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 }
