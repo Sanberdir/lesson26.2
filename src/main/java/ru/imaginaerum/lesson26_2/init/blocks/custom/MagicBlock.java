@@ -1,7 +1,6 @@
 package ru.imaginaerum.lesson26_2.init.blocks.custom;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -17,7 +16,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
-import ru.imaginaerum.lesson26_2.init.items.LessonItems;
 import ru.imaginaerum.lesson26_2.init.tags.ModTags;
 
 public class MagicBlock extends Block {
