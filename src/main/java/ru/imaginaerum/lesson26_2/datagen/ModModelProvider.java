@@ -23,12 +23,15 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(LessonItems.END_FIRE_STARTER.get(), ModelTemplates.FLAT_ITEM);
 
         /* BLOCKS */
-        blockModels.createTrivialCube(LessonBlocks.AZURITE_BLOCK.get());
         blockModels.createTrivialCube(LessonBlocks.RAW_AZURITE_BLOCK.get());
         blockModels.createTrivialCube(LessonBlocks.AZURITE_ORE.get());
         blockModels.createTrivialCube(LessonBlocks.AZURITE_DEEPSLATE_ORE.get());
         blockModels.createTrivialCube(LessonBlocks.AZURITE_NETHER_ORE.get());
         blockModels.createTrivialCube(LessonBlocks.AZURITE_END_ORE.get());
         blockModels.createTrivialCube(LessonBlocks.MAGIC_BLOCK.get());
+
+        blockModels.family(LessonBlocks.AZURITE_BLOCK.get())
+                .stairs(LessonBlocks.AZURITE_STAIRS.get())
+                .slab(LessonBlocks.AZURITE_SLAB.get());
     }
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lesson26_2:block/azurite_slab"
+    },
+    "type=double": {
+      "model": "lesson26_2:block/azurite_block"
+    },
+    "type=top": {
+      "model": "lesson26_2:block/azurite_slab_top"
+    }
+  }
+}

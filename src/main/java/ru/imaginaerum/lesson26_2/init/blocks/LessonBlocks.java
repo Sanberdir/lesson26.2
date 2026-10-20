@@ -2,9 +2,7 @@ package ru.imaginaerum.lesson26_2.init.blocks;
 
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -43,6 +41,14 @@ public class LessonBlocks {
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
             properties -> new MagicBlock(properties.strength(2f)
                     .requiresCorrectToolForDrops().sound(SoundType.DECORATED_POT)));
+
+    public static final DeferredBlock<Block> AZURITE_STAIRS = registerBlock("azurite_stairs",
+            properties -> new StairBlock(LessonBlocks.AZURITE_BLOCK.get().defaultBlockState(),
+                    properties.strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final DeferredBlock<Block> AZURITE_SLAB = registerBlock("azurite_slab",
+            properties -> new SlabBlock(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {

@@ -1,5 +1,7 @@
-// 26.2	2026-10-11T19:13:23.0554748	Lesson26_2DataGen Recipes
+// 26.2	2026-10-20T14:19:08.1870369	Lesson26_2DataGen Recipes
 3947276ea07825c4e69c4217d73c4e7a98179167 data/lesson26_2/advancement/recipes/building_blocks/azurite_block.json
+50218a11ac8bc56d7df183c91d88d1de7fa08464 data/lesson26_2/advancement/recipes/building_blocks/azurite_slab.json
+802d239727e2bc4fcb5f1ce6264ca8e269252c33 data/lesson26_2/advancement/recipes/building_blocks/azurite_stairs.json
 864873bbe4ebb1333d1f78ccf88a7d2b82fe4448 data/lesson26_2/advancement/recipes/misc/azurite.json
 8af6a57ca241431dae6837e2a62533878983d71b data/lesson26_2/advancement/recipes/misc/azurite_from_blasting_azurite_deepslate_ore.json
 e90d1877a74e6e73d098f4fd6cf4ffa765e38f49 data/lesson26_2/advancement/recipes/misc/azurite_from_blasting_azurite_end_ore.json
@@ -25,3 +27,5 @@ efe89aa876d5ecc1fcf5c3f79c80bb7af4668911 data/lesson26_2/recipe/azurite_from_sme
 ea20214760ed2b86960c4bb08aaf14de6259f286 data/lesson26_2/recipe/azurite_from_smelting_azurite_nether_ore.json
 3c3657aedfaade83bc82cb0786771d7495a0c850 data/lesson26_2/recipe/azurite_from_smelting_azurite_ore.json
 380ce8643cd7d2357538c88a577bf4e14b10b0d7 data/lesson26_2/recipe/azurite_from_smelting_raw_azurite.json
+9ff6ed16632d72775269dbb486613d190b1b1308 data/lesson26_2/recipe/azurite_slab.json
+3ad005e88382eee01e06c60788c1c73dec3ed5a4 data/lesson26_2/recipe/azurite_stairs.json

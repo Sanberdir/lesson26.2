@@ -63,6 +63,11 @@ public class ModRecipeProvider extends RecipeProvider {
                 .group("azurite")
                 .save(output, "lesson26_2:azurite_from_blaze_powder");
 
+        stairBuilder(LessonBlocks.AZURITE_STAIRS.get(), Ingredient.of(LessonBlocks.AZURITE_BLOCK))
+                .unlockedBy(getHasName(LessonBlocks.AZURITE_BLOCK.get()), has(LessonBlocks.AZURITE_BLOCK))
+                .group("azurite").save(output);
+        slab(RecipeCategory.BUILDING_BLOCKS, LessonBlocks.AZURITE_SLAB.get(), LessonBlocks.AZURITE_BLOCK.get());
+
         List<ItemLike> AZURITE_SMELTABLES = List.of(LessonItems.RAW_AZURITE, LessonBlocks.AZURITE_ORE,
                 LessonBlocks.AZURITE_DEEPSLATE_ORE, LessonBlocks.AZURITE_NETHER_ORE, LessonBlocks.AZURITE_END_ORE);
 

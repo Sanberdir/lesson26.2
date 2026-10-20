@@ -1,6 +1,6 @@
-// 26.2	2026-10-19T10:42:17.4384071	Tags for minecraft:block mod id lesson26_2
+// 26.2	2026-10-20T14:19:08.188293	Tags for minecraft:block mod id lesson26_2
 517625696f89da7636e3126a405201cc977453f0 data/lesson26_2/tags/block/metal_detectables.json
-f63775c56a6f4937dacb7396358f1a32d3c210c5 data/minecraft/tags/block/mineable/pickaxe.json
+9b4001c4ff7d303a3baf8396aa36151c8c261e2a data/minecraft/tags/block/mineable/pickaxe.json
 5df4f65b09be20fd7aae4e6eb31ff6e988c3442a data/minecraft/tags/block/needs_diamond_tool.json
 afeaebc3adca15298efd7567a11b86f9114d087b data/minecraft/tags/block/needs_iron_tool.json
 cccb326dcc0296ebd7af7b06099856e6ccc28491 data/neoforge/tags/block/needs_netherite_tool.json

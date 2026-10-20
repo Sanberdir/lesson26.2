@@ -52,6 +52,8 @@ public class LessonTabs {
                         output.accept(LessonBlocks.AZURITE_NETHER_ORE);
                         output.accept(LessonBlocks.AZURITE_END_ORE);
                         output.accept(LessonBlocks.MAGIC_BLOCK);
+                        output.accept(LessonBlocks.AZURITE_SLAB);
+                        output.accept(LessonBlocks.AZURITE_STAIRS);
 
 
                     }).build());

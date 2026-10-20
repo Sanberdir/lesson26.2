@@ -19,6 +19,8 @@
   "block.lesson26_2.azurite_nether_ore": "Азуритовая руда незера",
   "block.lesson26_2.magic_block": "Магический блок",
   "block.lesson26_2.azurite_end_ore": "Азуритовая руда энда",
+  "block.lesson26_2.azurite_stairs": "Азуритовые ступеньки",
+  "block.lesson26_2.azurite_slab": "Азуритовая плита",
 
   "tooltip.lesson26_2.metal_detector.shift_down": "Обнаруживайте ценности, кликая по блокам",
   "tooltip.lesson26_2.metal_detector": "Нажмите §eShift§r для получения дополнительной информации"
