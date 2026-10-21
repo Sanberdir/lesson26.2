@@ -32,6 +32,8 @@ public class ModModelProvider extends ModelProvider {
 
         blockModels.family(LessonBlocks.AZURITE_BLOCK.get())
                 .stairs(LessonBlocks.AZURITE_STAIRS.get())
-                .slab(LessonBlocks.AZURITE_SLAB.get());
+                .slab(LessonBlocks.AZURITE_SLAB.get())
+                .pressurePlate(LessonBlocks.AZURITE_PRESSURE_PLATE.get())
+                .button(LessonBlocks.AZURITE_BUTTON.get());
     }
 }

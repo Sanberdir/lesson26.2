@@ -54,6 +54,8 @@ public class LessonTabs {
                         output.accept(LessonBlocks.MAGIC_BLOCK);
                         output.accept(LessonBlocks.AZURITE_SLAB);
                         output.accept(LessonBlocks.AZURITE_STAIRS);
+                        output.accept(LessonBlocks.AZURITE_BUTTON);
+                        output.accept(LessonBlocks.AZURITE_PRESSURE_PLATE);
 
 
                     }).build());
