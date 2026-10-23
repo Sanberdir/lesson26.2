@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "azurite",
+  "key": {
+    "#": "minecraft:stick",
+    "W": "lesson26_2:azurite"
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "id": "lesson26_2:azurite_fence_gate"
+  }
+}

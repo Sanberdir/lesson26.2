@@ -34,6 +34,9 @@ public class ModModelProvider extends ModelProvider {
                 .stairs(LessonBlocks.AZURITE_STAIRS.get())
                 .slab(LessonBlocks.AZURITE_SLAB.get())
                 .pressurePlate(LessonBlocks.AZURITE_PRESSURE_PLATE.get())
-                .button(LessonBlocks.AZURITE_BUTTON.get());
+                .button(LessonBlocks.AZURITE_BUTTON.get())
+                .fence(LessonBlocks.AZURITE_FENCE.get())
+                .fenceGate(LessonBlocks.AZURITE_FENCE_GATE.get())
+                .wall(LessonBlocks.AZURITE_WALL.get());
     }
 }

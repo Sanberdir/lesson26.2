@@ -23,6 +23,9 @@
   "block.lesson26_2.azurite_slab": "Azurite Slab",
   "block.lesson26_2.azurite_button": "Azurite Button",
   "block.lesson26_2.azurite_pressure_plate": "Azurite Pressure Plate",
+  "block.lesson26_2.azurite_fence": "Azurite Fence",
+  "block.lesson26_2.azurite_fence_gate": "Azurite Fence Gate",
+  "block.lesson26_2.azurite_wall": "Azurite Wall",
 
   "tooltip.lesson26_2.metal_detector.shift_down": "Discover valuables by clicking on Blocks",
   "tooltip.lesson26_2.metal_detector": "Press §eShift§r for more Information"

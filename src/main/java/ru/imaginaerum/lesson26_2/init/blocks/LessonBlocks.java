@@ -6,6 +6,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -63,6 +64,15 @@ public class LessonBlocks {
             properties -> new ButtonBlock(BlockSetType.IRON, 40, properties
                     .noCollision().strength(0.5F).pushReaction(PushReaction.DESTROY)));
 
+    public static final DeferredBlock<Block> AZURITE_FENCE = registerBlock("azurite_fence",
+            properties -> new FenceBlock(properties.strength(2F)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> AZURITE_FENCE_GATE = registerBlock("azurite_fence_gate",
+            properties -> new FenceGateBlock(WoodType.ACACIA, properties.strength(2F)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> AZURITE_WALL = registerBlock("azurite_wall",
+            properties -> new WallBlock(properties.strength(2F)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
         DeferredBlock<T> toReturn = LESSON_BLOCKS.registerBlock(name, function);

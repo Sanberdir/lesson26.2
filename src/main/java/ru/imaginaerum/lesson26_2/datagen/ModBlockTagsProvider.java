@@ -30,6 +30,20 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(LessonBlocks.AZURITE_SLAB.getKey())
                 .add(LessonBlocks.AZURITE_PRESSURE_PLATE.getKey());
 
+
+        tag(BlockTags.STAIRS)
+                .add(LessonBlocks.AZURITE_STAIRS.getKey());
+        tag(BlockTags.SLABS)
+                .add(LessonBlocks.AZURITE_SLAB.getKey());
+        tag(BlockTags.PRESSURE_PLATES)
+                .add(LessonBlocks.AZURITE_PRESSURE_PLATE.getKey());
+        tag(BlockTags.BUTTONS)
+                .add(LessonBlocks.AZURITE_BUTTON.getKey());
+
+        tag(BlockTags.FENCES).add(LessonBlocks.AZURITE_FENCE.getKey());
+        tag(BlockTags.FENCE_GATES).add(LessonBlocks.AZURITE_FENCE_GATE.getKey());
+        tag(BlockTags.WALLS).add(LessonBlocks.AZURITE_WALL.getKey());
+
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(LessonBlocks.AZURITE_DEEPSLATE_ORE.getKey());
         tag(BlockTags.NEEDS_DIAMOND_TOOL)

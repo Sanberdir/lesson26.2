@@ -56,6 +56,9 @@ public class LessonTabs {
                         output.accept(LessonBlocks.AZURITE_STAIRS);
                         output.accept(LessonBlocks.AZURITE_BUTTON);
                         output.accept(LessonBlocks.AZURITE_PRESSURE_PLATE);
+                        output.accept(LessonBlocks.AZURITE_FENCE);
+                        output.accept(LessonBlocks.AZURITE_FENCE_GATE);
+                        output.accept(LessonBlocks.AZURITE_WALL);
 
 
                     }).build());
