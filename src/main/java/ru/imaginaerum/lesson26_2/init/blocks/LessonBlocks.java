@@ -66,10 +66,10 @@ public class LessonBlocks {
 
     public static final DeferredBlock<Block> AZURITE_FENCE = registerBlock("azurite_fence",
             properties -> new FenceBlock(properties.strength(2F)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
     public static final DeferredBlock<Block> AZURITE_FENCE_GATE = registerBlock("azurite_fence_gate",
             properties -> new FenceGateBlock(WoodType.ACACIA, properties.strength(2F)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
     public static final DeferredBlock<Block> AZURITE_WALL = registerBlock("azurite_wall",
             properties -> new WallBlock(properties.strength(2F)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
