@@ -42,6 +42,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.PRESSURE_PLATES)
                 .add(LessonBlocks.AZURITE_PRESSURE_PLATE.getKey());
         tag(BlockTags.BUTTONS)
+
                 .add(LessonBlocks.AZURITE_BUTTON.getKey());
 
         tag(BlockTags.FENCES).add(LessonBlocks.AZURITE_FENCE.getKey());
