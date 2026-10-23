@@ -1,8 +1,9 @@
-// 26.2	2026-10-21T12:27:12.1240381	Tags for minecraft:block mod id lesson26_2
+// 26.2	2026-10-23T19:43:40.0023963	Tags for minecraft:block mod id lesson26_2
 517625696f89da7636e3126a405201cc977453f0 data/lesson26_2/tags/block/metal_detectables.json
 fd1977cb65eded44409f5f804563db4f9bf3041c data/minecraft/tags/block/buttons.json
 dc2693dae862fbf5d0f5fff3c1e621d024c16082 data/minecraft/tags/block/fences.json
 b3148947cf9da34c457e8e33e60e5b01800d78e2 data/minecraft/tags/block/fence_gates.json
+d64d5cdb0291aa1b72ef6254fee9e5f08694c0d6 data/minecraft/tags/block/mineable/axe.json
 acab35289161c6363cbf81dd57610651033b9cfd data/minecraft/tags/block/mineable/pickaxe.json
 5df4f65b09be20fd7aae4e6eb31ff6e988c3442a data/minecraft/tags/block/needs_diamond_tool.json
 afeaebc3adca15298efd7567a11b86f9114d087b data/minecraft/tags/block/needs_iron_tool.json
