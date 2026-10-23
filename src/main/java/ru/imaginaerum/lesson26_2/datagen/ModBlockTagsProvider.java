@@ -30,6 +30,10 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(LessonBlocks.AZURITE_SLAB.getKey())
                 .add(LessonBlocks.AZURITE_PRESSURE_PLATE.getKey());
 
+        tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(LessonBlocks.AZURITE_FENCE.getKey())
+                .add(LessonBlocks.AZURITE_FENCE_GATE.getKey());
+
 
         tag(BlockTags.STAIRS)
                 .add(LessonBlocks.AZURITE_STAIRS.getKey());
