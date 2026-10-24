@@ -37,6 +37,8 @@ public class ModModelProvider extends ModelProvider {
                 .button(LessonBlocks.AZURITE_BUTTON.get())
                 .fence(LessonBlocks.AZURITE_FENCE.get())
                 .fenceGate(LessonBlocks.AZURITE_FENCE_GATE.get())
-                .wall(LessonBlocks.AZURITE_WALL.get());
+                .wall(LessonBlocks.AZURITE_WALL.get())
+                .door(LessonBlocks.AZURITE_DOOR.get())
+                .trapdoor(LessonBlocks.AZURITE_TRAPDOOR.get());
     }
 }

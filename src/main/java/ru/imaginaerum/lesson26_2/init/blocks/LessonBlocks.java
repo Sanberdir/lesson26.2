@@ -74,6 +74,13 @@ public class LessonBlocks {
             properties -> new WallBlock(properties.strength(2F)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
+    public static final DeferredBlock<Block> AZURITE_DOOR = registerBlock("azurite_door",
+            properties -> new DoorBlock(BlockSetType.IRON, properties.strength(2F)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST).noOcclusion()));
+    public static final DeferredBlock<Block> AZURITE_TRAPDOOR = registerBlock("azurite_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.IRON, properties.strength(2F)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST).noOcclusion()));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
         DeferredBlock<T> toReturn = LESSON_BLOCKS.registerBlock(name, function);
         registerBlockItem(name, toReturn);

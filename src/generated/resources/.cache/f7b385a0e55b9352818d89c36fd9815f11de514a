@@ -1,14 +1,16 @@
-// 26.2	2026-10-23T19:43:40.0023963	Tags for minecraft:block mod id lesson26_2
+// 26.2	2026-10-24T12:23:13.665599	Tags for minecraft:block mod id lesson26_2
 517625696f89da7636e3126a405201cc977453f0 data/lesson26_2/tags/block/metal_detectables.json
 fd1977cb65eded44409f5f804563db4f9bf3041c data/minecraft/tags/block/buttons.json
+b9040f7f826310b6d23f3c84d124f9782cd324e2 data/minecraft/tags/block/doors.json
 dc2693dae862fbf5d0f5fff3c1e621d024c16082 data/minecraft/tags/block/fences.json
 b3148947cf9da34c457e8e33e60e5b01800d78e2 data/minecraft/tags/block/fence_gates.json
 d64d5cdb0291aa1b72ef6254fee9e5f08694c0d6 data/minecraft/tags/block/mineable/axe.json
-acab35289161c6363cbf81dd57610651033b9cfd data/minecraft/tags/block/mineable/pickaxe.json
+5931fb772c4d4b4be36a255e72e75a860d37c5ee data/minecraft/tags/block/mineable/pickaxe.json
 5df4f65b09be20fd7aae4e6eb31ff6e988c3442a data/minecraft/tags/block/needs_diamond_tool.json
 afeaebc3adca15298efd7567a11b86f9114d087b data/minecraft/tags/block/needs_iron_tool.json
 6a40e0a2a7ef55b31e0a218c36b75c807c129e07 data/minecraft/tags/block/pressure_plates.json
 a5dcaeecafcf448f654fd33127fc26690a02c3a8 data/minecraft/tags/block/slabs.json
 76a588c79c0ac8e9ef6175ad72b9a48f978385ec data/minecraft/tags/block/stairs.json
+a0e1b05ee8db61f58679197c702332ce29ce9cda data/minecraft/tags/block/trapdoors.json
 3859084582334de2927c26748572fe6741362cb3 data/minecraft/tags/block/walls.json
 cccb326dcc0296ebd7af7b06099856e6ccc28491 data/neoforge/tags/block/needs_netherite_tool.json

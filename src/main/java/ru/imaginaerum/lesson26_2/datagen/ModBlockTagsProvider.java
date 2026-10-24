@@ -27,13 +27,16 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(LessonBlocks.AZURITE_END_ORE.getKey())
                 .add(LessonBlocks.MAGIC_BLOCK.getKey())
                 .add(LessonBlocks.AZURITE_STAIRS.getKey())
+                .add(LessonBlocks.AZURITE_DOOR.getKey())
+                .add(LessonBlocks.AZURITE_TRAPDOOR.getKey())
                 .add(LessonBlocks.AZURITE_SLAB.getKey())
                 .add(LessonBlocks.AZURITE_PRESSURE_PLATE.getKey());
 
         tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(LessonBlocks.AZURITE_FENCE.getKey())
                 .add(LessonBlocks.AZURITE_FENCE_GATE.getKey());
-
+        tag(BlockTags.DOORS).add(LessonBlocks.AZURITE_DOOR.getKey());
+        tag(BlockTags.TRAPDOORS).add(LessonBlocks.AZURITE_TRAPDOOR.getKey());
 
         tag(BlockTags.STAIRS)
                 .add(LessonBlocks.AZURITE_STAIRS.getKey());

@@ -59,6 +59,8 @@ public class LessonTabs {
                         output.accept(LessonBlocks.AZURITE_FENCE);
                         output.accept(LessonBlocks.AZURITE_FENCE_GATE);
                         output.accept(LessonBlocks.AZURITE_WALL);
+                        output.accept(LessonBlocks.AZURITE_DOOR);
+                        output.accept(LessonBlocks.AZURITE_TRAPDOOR);
 
 
                     }).build());

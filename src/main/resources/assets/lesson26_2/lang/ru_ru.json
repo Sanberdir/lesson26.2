@@ -27,6 +27,9 @@
   "block.lesson26_2.azurite_fence_gate": "Азуритовая калитка",
   "block.lesson26_2.azurite_wall": "Азуритовая стена",
 
+  "block.lesson26_2.azurite_door": "Азуритовая дверь",
+  "block.lesson26_2.azurite_trapdoor": "Азуритовый люк",
+
   "tooltip.lesson26_2.metal_detector.shift_down": "Обнаруживайте ценности, кликая по блокам",
   "tooltip.lesson26_2.metal_detector": "Нажмите §eShift§r для получения дополнительной информации"
 }
