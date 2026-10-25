@@ -23,6 +23,8 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(Items.REDSTONE.builtInRegistryHolder().key())
                 .add(Items.COPPER_INGOT.builtInRegistryHolder().key())
                 .add(LessonItems.AZURITE.get().builtInRegistryHolder().key());
+        tag(ModTags.Items.AZURITE_REPAIRABLE)
+                .add(LessonItems.AZURITE.get().builtInRegistryHolder().key());
 
         tag(ItemTags.SWORDS).add(LessonItems.AZURITE_SWORD.get().builtInRegistryHolder().key());
         tag(ItemTags.PICKAXES).add(LessonItems.AZURITE_PICKAXE.get().builtInRegistryHolder().key());
