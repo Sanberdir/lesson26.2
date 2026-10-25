@@ -88,6 +88,72 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
                 .group("azurite").save(output);
 
+        shaped(RecipeCategory.COMBAT, LessonItems.AZURITE_SWORD.get())
+                .pattern("A")
+                .pattern("A")
+                .pattern("S")
+                .define('A', LessonItems.AZURITE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .group("azurite")
+                .save(output);
+
+        shaped(RecipeCategory.TOOLS, LessonItems.AZURITE_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', LessonItems.AZURITE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .group("azurite")
+                .save(output);
+
+        shaped(RecipeCategory.TOOLS, LessonItems.AZURITE_SHOVEL.get())
+                .pattern("A")
+                .pattern("S")
+                .pattern("S")
+                .define('A', LessonItems.AZURITE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .group("azurite")
+                .save(output);
+
+        shaped(RecipeCategory.TOOLS, LessonItems.AZURITE_AXE.get())
+                .pattern("AA")
+                .pattern("SA")
+                .pattern("S ")
+                .define('A', LessonItems.AZURITE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .group("azurite")
+                .save(output);
+
+        shaped(RecipeCategory.TOOLS, LessonItems.AZURITE_HOE.get())
+                .pattern("AA")
+                .pattern("S ")
+                .pattern("S ")
+                .define('A', LessonItems.AZURITE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .group("azurite")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, LessonItems.AZURITE_SPEAR.get())
+                .pattern("  A")
+                .pattern(" S ")
+                .pattern("S  ")
+                .define('A', LessonItems.AZURITE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .group("azurite")
+                .save(output);
+
         List<ItemLike> AZURITE_SMELTABLES = List.of(LessonItems.RAW_AZURITE, LessonBlocks.AZURITE_ORE,
                 LessonBlocks.AZURITE_DEEPSLATE_ORE, LessonBlocks.AZURITE_NETHER_ORE, LessonBlocks.AZURITE_END_ORE);
 

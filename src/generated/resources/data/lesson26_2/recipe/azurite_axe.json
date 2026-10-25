@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "azurite",
+  "key": {
+    "A": "lesson26_2:azurite",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "AA",
+    "SA",
+    "S "
+  ],
+  "result": {
+    "id": "lesson26_2:azurite_axe"
+  }
+}

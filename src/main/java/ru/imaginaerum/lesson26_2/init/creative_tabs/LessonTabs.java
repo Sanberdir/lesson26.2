@@ -36,6 +36,12 @@ public class LessonTabs {
                         output.accept(LessonItems.METAL_DETECTOR.get());
                         output.accept(LessonItems.ONION.get());
                         output.accept(LessonItems.END_FIRE_STARTER.get());
+                        output.accept(LessonItems.AZURITE_AXE.get());
+                        output.accept(LessonItems.AZURITE_HOE.get());
+                        output.accept(LessonItems.AZURITE_PICKAXE.get());
+                        output.accept(LessonItems.AZURITE_SHOVEL.get());
+                        output.accept(LessonItems.AZURITE_SPEAR.get());
+                        output.accept(LessonItems.AZURITE_SWORD.get());
                         // Добавляйте другие предметы здесь
                     })
                     .build());

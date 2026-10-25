@@ -7,7 +7,7 @@
   "itemGroup.lesson26_2.lesson_tab_blocks": "Учебная вкладка блоки",
   "item.lesson26_2.metal_detector": "Металлоискатель",
 
-  "item.tutorialmod.metal_detector.no_valuables": "Ничего не найдено!",
+  "item.lesson26_2.metal_detector.no_valuables": "Ничего не найдено!",
 
   "message.yourmod.valuables_found": "Найдены ценности: %s в (%s, %s, %s)",
 
@@ -29,6 +29,13 @@
 
   "block.lesson26_2.azurite_door": "Азуритовая дверь",
   "block.lesson26_2.azurite_trapdoor": "Азуритовый люк",
+
+  "item.lesson26_2.azurite_sword": "Азуритовый меч",
+  "item.lesson26_2.azurite_pickaxe": "Азуритовая кирка",
+  "item.lesson26_2.azurite_shovel": "Азуритовая лопата",
+  "item.lesson26_2.azurite_axe": "Азуритовый топор",
+  "item.lesson26_2.azurite_hoe": "Азуритовая мотыга",
+  "item.lesson26_2.azurite_spear": "Азуритовое копьё",
 
   "tooltip.lesson26_2.metal_detector.shift_down": "Обнаруживайте ценности, кликая по блокам",
   "tooltip.lesson26_2.metal_detector": "Нажмите §eShift§r для получения дополнительной информации"

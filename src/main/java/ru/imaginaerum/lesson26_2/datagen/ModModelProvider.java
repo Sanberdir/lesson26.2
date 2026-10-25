@@ -22,6 +22,13 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(LessonItems.ONION.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(LessonItems.END_FIRE_STARTER.get(), ModelTemplates.FLAT_ITEM);
 
+        itemModels.generateFlatItem(LessonItems.AZURITE_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModels.generateFlatItem(LessonItems.AZURITE_PICKAXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModels.generateFlatItem(LessonItems.AZURITE_SHOVEL.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModels.generateFlatItem(LessonItems.AZURITE_AXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModels.generateFlatItem(LessonItems.AZURITE_HOE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+
+        itemModels.generateSpear(LessonItems.AZURITE_SPEAR.get());
         /* BLOCKS */
         blockModels.createTrivialCube(LessonBlocks.RAW_AZURITE_BLOCK.get());
         blockModels.createTrivialCube(LessonBlocks.AZURITE_ORE.get());

@@ -1,2 +1,8 @@
-// 26.2	2026-10-19T10:42:17.4364066	Tags for minecraft:item mod id lesson26_2
+// 26.2	2026-10-25T17:58:41.6204239	Tags for minecraft:item mod id lesson26_2
 5e776c2f1715817ff08918246a15e4e7f2878c53 data/lesson26_2/tags/item/transformable_items.json
+5aa4d58ae4d55b8f6ea3d25398bfde4d1020c751 data/minecraft/tags/item/axes.json
+4a9431b77ffe27e0c1351fbc994845bac2f1bd63 data/minecraft/tags/item/hoes.json
+dfc61921928396d799c38449209a7cbfd28dc2d9 data/minecraft/tags/item/pickaxes.json
+df1531d87c6b136a3114677541e7158c4196d09c data/minecraft/tags/item/shovels.json
+bdc776649d9971b4606f8361ed6e0599da2d0aea data/minecraft/tags/item/spears.json
+d5ea1382821deaffefaca04be34c291f942a83bb data/minecraft/tags/item/swords.json
