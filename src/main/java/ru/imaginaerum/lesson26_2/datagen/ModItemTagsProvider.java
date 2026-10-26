@@ -26,6 +26,11 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         tag(ModTags.Items.AZURITE_REPAIRABLE)
                 .add(LessonItems.AZURITE.get().builtInRegistryHolder().key());
 
+        tag(ItemTags.HEAD_ARMOR).add(LessonItems.AZURITE_HELMET.get().builtInRegistryHolder().key());
+        tag(ItemTags.CHEST_ARMOR).add(LessonItems.AZURITE_CHESTPLATE.get().builtInRegistryHolder().key());
+        tag(ItemTags.LEG_ARMOR).add(LessonItems.AZURITE_LEGGINGS.get().builtInRegistryHolder().key());
+        tag(ItemTags.FOOT_ARMOR).add(LessonItems.AZURITE_BOOTS.get().builtInRegistryHolder().key());
+
         tag(ItemTags.SWORDS).add(LessonItems.AZURITE_SWORD.get().builtInRegistryHolder().key());
         tag(ItemTags.PICKAXES).add(LessonItems.AZURITE_PICKAXE.get().builtInRegistryHolder().key());
         tag(ItemTags.SHOVELS).add(LessonItems.AZURITE_SHOVEL.get().builtInRegistryHolder().key());

@@ -42,6 +42,10 @@ public class LessonTabs {
                         output.accept(LessonItems.AZURITE_SHOVEL.get());
                         output.accept(LessonItems.AZURITE_SPEAR.get());
                         output.accept(LessonItems.AZURITE_SWORD.get());
+                        output.accept(LessonItems.AZURITE_BOOTS.get());
+                        output.accept(LessonItems.AZURITE_HELMET.get());
+                        output.accept(LessonItems.AZURITE_LEGGINGS.get());
+                        output.accept(LessonItems.AZURITE_CHESTPLATE.get());
                         // Добавляйте другие предметы здесь
                     })
                     .build());

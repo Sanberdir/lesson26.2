@@ -154,6 +154,40 @@ public class ModRecipeProvider extends RecipeProvider {
                 .group("azurite")
                 .save(output);
 
+        shaped(RecipeCategory.COMBAT, LessonItems.AZURITE_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', LessonItems.AZURITE.get())
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .group("azurite")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, LessonItems.AZURITE_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', LessonItems.AZURITE.get())
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .group("azurite")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, LessonItems.AZURITE_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', LessonItems.AZURITE.get())
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .group("azurite")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, LessonItems.AZURITE_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', LessonItems.AZURITE.get())
+                .unlockedBy(getHasName(LessonItems.AZURITE.get()), has(LessonItems.AZURITE))
+                .group("azurite")
+                .save(output);
+
         List<ItemLike> AZURITE_SMELTABLES = List.of(LessonItems.RAW_AZURITE, LessonBlocks.AZURITE_ORE,
                 LessonBlocks.AZURITE_DEEPSLATE_ORE, LessonBlocks.AZURITE_NETHER_ORE, LessonBlocks.AZURITE_END_ORE);
 

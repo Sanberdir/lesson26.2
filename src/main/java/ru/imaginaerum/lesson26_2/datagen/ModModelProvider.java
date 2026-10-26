@@ -8,6 +8,7 @@ import net.minecraft.data.PackOutput;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
 import ru.imaginaerum.lesson26_2.init.blocks.LessonBlocks;
 import ru.imaginaerum.lesson26_2.init.items.LessonItems;
+import ru.imaginaerum.lesson26_2.init.items.ModArmorMaterials;
 
 public class ModModelProvider extends ModelProvider {
     public ModModelProvider(PackOutput output) {
@@ -27,6 +28,12 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(LessonItems.AZURITE_SHOVEL.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(LessonItems.AZURITE_AXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(LessonItems.AZURITE_HOE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+
+        itemModels.generateTrimmableItem(LessonItems.AZURITE_HELMET.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModels.generateTrimmableItem(LessonItems.AZURITE_CHESTPLATE.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModels.generateTrimmableItem(LessonItems.AZURITE_LEGGINGS.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModels.generateTrimmableItem(LessonItems.AZURITE_BOOTS.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+
 
         itemModels.generateSpear(LessonItems.AZURITE_SPEAR.get());
         /* BLOCKS */

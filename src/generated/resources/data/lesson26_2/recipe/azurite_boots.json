@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "azurite",
+  "key": {
+    "A": "lesson26_2:azurite"
+  },
+  "pattern": [
+    "A A",
+    "A A"
+  ],
+  "result": {
+    "id": "lesson26_2:azurite_boots"
+  }
+}

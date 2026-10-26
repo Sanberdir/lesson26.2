@@ -1,8 +1,12 @@
-// 26.2	2026-10-25T18:21:25.504713	Tags for minecraft:item mod id lesson26_2
+// 26.2	2026-10-25T22:46:19.713018	Tags for minecraft:item mod id lesson26_2
 251f2e1f46d8c55c1e9fa3a727a777deb468d262 data/lesson26_2/tags/item/azurite_repairable.json
 5e776c2f1715817ff08918246a15e4e7f2878c53 data/lesson26_2/tags/item/transformable_items.json
 5aa4d58ae4d55b8f6ea3d25398bfde4d1020c751 data/minecraft/tags/item/axes.json
+7aa5e6f871a893c9fb7c77e79dd30929a9759c78 data/minecraft/tags/item/chest_armor.json
+5d0f2f85507ee4fe25630958ad7aa9d2c64376a5 data/minecraft/tags/item/foot_armor.json
+ef4927dd0938c4dc15d2c9adcca6e33c173822f0 data/minecraft/tags/item/head_armor.json
 4a9431b77ffe27e0c1351fbc994845bac2f1bd63 data/minecraft/tags/item/hoes.json
+db70e5b01b479920961d62679a5f27e8e6f495eb data/minecraft/tags/item/leg_armor.json
 dfc61921928396d799c38449209a7cbfd28dc2d9 data/minecraft/tags/item/pickaxes.json
 df1531d87c6b136a3114677541e7158c4196d09c data/minecraft/tags/item/shovels.json
 bdc776649d9971b4606f8361ed6e0599da2d0aea data/minecraft/tags/item/spears.json

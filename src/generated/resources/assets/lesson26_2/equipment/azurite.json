@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "lesson26_2:azurite"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "lesson26_2:azurite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "lesson26_2:azurite"
+      }
+    ]
+  }
+}

@@ -29,5 +29,6 @@ public class Lesson26_2DataGen {
         generator.addProvider(true, new ModRecipeProvider.Runner(packOutput, lookupProvider));
         generator.addProvider(true, new ModDataMapProvider(packOutput, lookupProvider));
         generator.addProvider(true, new ModItemTagsProvider(packOutput, lookupProvider));
+        generator.addProvider(true, new ModEquipmentAssetProvider(packOutput));
     }
 }

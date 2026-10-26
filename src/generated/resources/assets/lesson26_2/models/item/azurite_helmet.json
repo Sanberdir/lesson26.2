@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lesson26_2:item/azurite_helmet"
+  }
+}
