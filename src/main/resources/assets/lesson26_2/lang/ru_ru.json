@@ -37,6 +37,11 @@
   "item.lesson26_2.azurite_hoe": "Азуритовая мотыга",
   "item.lesson26_2.azurite_spear": "Азуритовое копьё",
 
+  "item.lesson26_2.azurite_helmet": "Азуритовый шлем",
+  "item.lesson26_2.azurite_chestplate": "Азуритовый нагрудник",
+  "item.lesson26_2.azurite_leggings": "Азуритовые поножи",
+  "item.lesson26_2.azurite_boots": "Азуритовые ботинки",
+
   "tooltip.lesson26_2.metal_detector.shift_down": "Обнаруживайте ценности, кликая по блокам",
   "tooltip.lesson26_2.metal_detector": "Нажмите §eShift§r для получения дополнительной информации"
 }
