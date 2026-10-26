@@ -48,4 +48,7 @@ public class LessonItems {
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.AZURITE_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
     public static final DeferredItem<Item> AZURITE_BOOTS = LESSON_ITEMS.registerItem("azurite_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.AZURITE_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
+    public static final DeferredItem<Item> AZURITE_HORSE_ARMOR = LESSON_ITEMS.registerItem("azurite_horse_armor",
+            properties -> new Item(properties.horseArmor(ModArmorMaterials.AZURITE_ARMOR_MATERIAL)));
 }

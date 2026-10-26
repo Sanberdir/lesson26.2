@@ -46,6 +46,7 @@ public class LessonTabs {
                         output.accept(LessonItems.AZURITE_HELMET.get());
                         output.accept(LessonItems.AZURITE_LEGGINGS.get());
                         output.accept(LessonItems.AZURITE_CHESTPLATE.get());
+                        output.accept(LessonItems.AZURITE_HORSE_ARMOR.get());
                         // Добавляйте другие предметы здесь
                     })
                     .build());

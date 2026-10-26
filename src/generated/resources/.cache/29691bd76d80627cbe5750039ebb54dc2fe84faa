@@ -1,4 +1,4 @@
-// 26.2	2026-10-25T22:46:19.7080146	Model Definitions - lesson26_2
+// 26.2	2026-10-26T21:39:33.8801295	Model Definitions - lesson26_2
 3e5d88f8eb395c56fd2e5b0eeb2c0b5a37c251b8 assets/lesson26_2/blockstates/azurite_block.json
 e316f240a7c9e30b6f3dfc898cd6e17a578f38ae assets/lesson26_2/blockstates/azurite_button.json
 b0519bd9a1e2433b53dea6889015b99c6569e0a0 assets/lesson26_2/blockstates/azurite_deepslate_ore.json
@@ -28,6 +28,7 @@ f8c29e213de182d96ae9f64fb7b892ddd6171216 assets/lesson26_2/items/azurite_chestpl
 634260b83e77d8568ffb52cebc85e8e2fbd20790 assets/lesson26_2/items/azurite_fence_gate.json
 933e68524dd5ac751c3e3bd7fb7bb6b75125a906 assets/lesson26_2/items/azurite_helmet.json
 45db88c103b11db4151e6a194611a02b1d179f1c assets/lesson26_2/items/azurite_hoe.json
+5e0c95c4630790f0cfceeea60142faa61d4a469f assets/lesson26_2/items/azurite_horse_armor.json
 0b7cf773fb6d518b142e00d4dc82f6b88aede03e assets/lesson26_2/items/azurite_leggings.json
 b751a245aa7d40cce28257b2559e9792dc50c37c assets/lesson26_2/items/azurite_nether_ore.json
 40f02db43fc4d25a48bd2bd6984d36f1e964b2c7 assets/lesson26_2/items/azurite_ore.json
@@ -125,6 +126,7 @@ ddcdd1f665c50862510efb228fa030451f30b224 assets/lesson26_2/models/item/azurite_h
 9c6f4645d16f721c6b28f5e4b06627b58112db68 assets/lesson26_2/models/item/azurite_helmet_redstone_trim.json
 6e8673522de95223be86202b40aeaddd15c4bdbe assets/lesson26_2/models/item/azurite_helmet_resin_trim.json
 ee9d0cd1a87c9decd5a58674adeb3e7a82bea3de assets/lesson26_2/models/item/azurite_hoe.json
+28cb4fd3ae4db6d7440c59132373b913e2d38e95 assets/lesson26_2/models/item/azurite_horse_armor.json
 1b89504dd581bbf0d0d5b289519262978cf9c7a8 assets/lesson26_2/models/item/azurite_leggings.json
 9abefa26316dc48def0058b5827d8415464995ff assets/lesson26_2/models/item/azurite_leggings_amethyst_trim.json
 ff1ebad499d48e7f567b405fb844f11e1000524f assets/lesson26_2/models/item/azurite_leggings_copper_trim.json

@@ -34,6 +34,7 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateTrimmableItem(LessonItems.AZURITE_LEGGINGS.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
         itemModels.generateTrimmableItem(LessonItems.AZURITE_BOOTS.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
 
+        itemModels.generateFlatItem(LessonItems.AZURITE_HORSE_ARMOR.get(), ModelTemplates.FLAT_ITEM);
 
         itemModels.generateSpear(LessonItems.AZURITE_SPEAR.get());
         /* BLOCKS */

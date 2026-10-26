@@ -1,5 +1,10 @@
 {
   "layers": {
+    "horse_body": [
+      {
+        "texture": "lesson26_2:azurite"
+      }
+    ],
     "humanoid": [
       {
         "texture": "lesson26_2:azurite"
