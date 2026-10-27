@@ -22,6 +22,8 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(LessonItems.METAL_DETECTOR.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(LessonItems.ONION.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(LessonItems.END_FIRE_STARTER.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(LessonItems.AZURITE_HORSE_ARMOR.get(), ModelTemplates.FLAT_ITEM);
+
 
         itemModels.generateFlatItem(LessonItems.AZURITE_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(LessonItems.AZURITE_PICKAXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
@@ -34,7 +36,7 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateTrimmableItem(LessonItems.AZURITE_LEGGINGS.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
         itemModels.generateTrimmableItem(LessonItems.AZURITE_BOOTS.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
 
-        itemModels.generateFlatItem(LessonItems.AZURITE_HORSE_ARMOR.get(), ModelTemplates.FLAT_ITEM);
+
 
         itemModels.generateSpear(LessonItems.AZURITE_SPEAR.get());
         /* BLOCKS */
