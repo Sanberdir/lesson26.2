@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "lesson26_2:block/azurite_lamp"
+    },
+    "clicked=true": {
+      "model": "lesson26_2:block/azurite_lamp_on"
+    }
+  }
+}

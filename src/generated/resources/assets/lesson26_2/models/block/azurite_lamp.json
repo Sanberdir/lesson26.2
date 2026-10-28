@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lesson26_2:block/azurite_lamp"
+  }
+}

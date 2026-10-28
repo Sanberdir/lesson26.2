@@ -12,6 +12,7 @@ import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
+import ru.imaginaerum.lesson26_2.init.blocks.custom.AzuriteLampBlock;
 import ru.imaginaerum.lesson26_2.init.blocks.custom.MagicBlock;
 import ru.imaginaerum.lesson26_2.init.items.LessonItems;
 
@@ -80,6 +81,10 @@ public class LessonBlocks {
     public static final DeferredBlock<Block> AZURITE_TRAPDOOR = registerBlock("azurite_trapdoor",
             properties -> new TrapDoorBlock(BlockSetType.IRON, properties.strength(2F)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST).noOcclusion()));
+
+    public static final DeferredBlock<Block> AZURITE_LAMP = registerBlock("azurite_lamp",
+            properties -> new AzuriteLampBlock(properties.strength(2F)
+                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(AzuriteLampBlock.CLICKED) ? 15 : 0)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
         DeferredBlock<T> toReturn = LESSON_BLOCKS.registerBlock(name, function);

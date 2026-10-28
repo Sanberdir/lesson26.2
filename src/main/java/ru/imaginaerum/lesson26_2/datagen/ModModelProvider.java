@@ -3,10 +3,14 @@ package ru.imaginaerum.lesson26_2.datagen;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
+import net.minecraft.client.data.models.blockstates.MultiVariantGenerator;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.client.data.models.model.TextureMapping;
+import net.minecraft.client.data.models.model.TexturedModel;
 import net.minecraft.data.PackOutput;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
 import ru.imaginaerum.lesson26_2.init.blocks.LessonBlocks;
+import ru.imaginaerum.lesson26_2.init.blocks.custom.AzuriteLampBlock;
 import ru.imaginaerum.lesson26_2.init.items.LessonItems;
 import ru.imaginaerum.lesson26_2.init.items.ModArmorMaterials;
 
@@ -36,7 +40,10 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateTrimmableItem(LessonItems.AZURITE_LEGGINGS.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
         itemModels.generateTrimmableItem(LessonItems.AZURITE_BOOTS.get(), ModArmorMaterials.AZURITE_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
 
-
+        blockModels.blockStateOutput.accept(
+                MultiVariantGenerator.dispatch(LessonBlocks.AZURITE_LAMP.get()).with(BlockModelGenerators.createBooleanModelDispatch(AzuriteLampBlock.CLICKED,
+                        BlockModelGenerators.plainVariant(blockModels.createSuffixedVariant(LessonBlocks.AZURITE_LAMP.get(), "_on", ModelTemplates.CUBE_ALL, TextureMapping::cube)),
+                        BlockModelGenerators.plainVariant(TexturedModel.CUBE.create(LessonBlocks.AZURITE_LAMP.get(), blockModels.modelOutput)))));
 
         itemModels.generateSpear(LessonItems.AZURITE_SPEAR.get());
         /* BLOCKS */

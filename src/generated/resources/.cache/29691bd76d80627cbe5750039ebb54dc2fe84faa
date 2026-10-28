@@ -1,4 +1,4 @@
-// 26.2	2026-10-26T21:39:33.8801295	Model Definitions - lesson26_2
+// 26.2	2026-10-27T21:39:07.0420289	Model Definitions - lesson26_2
 3e5d88f8eb395c56fd2e5b0eeb2c0b5a37c251b8 assets/lesson26_2/blockstates/azurite_block.json
 e316f240a7c9e30b6f3dfc898cd6e17a578f38ae assets/lesson26_2/blockstates/azurite_button.json
 b0519bd9a1e2433b53dea6889015b99c6569e0a0 assets/lesson26_2/blockstates/azurite_deepslate_ore.json
@@ -6,6 +6,7 @@ b0519bd9a1e2433b53dea6889015b99c6569e0a0 assets/lesson26_2/blockstates/azurite_d
 4711cf555956750cbfc65277508aaec4b44c2b42 assets/lesson26_2/blockstates/azurite_end_ore.json
 5d069a7c2ce3139f795d214e64eaddda71973bb0 assets/lesson26_2/blockstates/azurite_fence.json
 c61950317bf972ac81308622f50079a0a3fff962 assets/lesson26_2/blockstates/azurite_fence_gate.json
+178a03029da39179f796cf1fd875ddfb1039c6cf assets/lesson26_2/blockstates/azurite_lamp.json
 72230f7c0018c6382e6b440c6921c4ada3b84e7b assets/lesson26_2/blockstates/azurite_nether_ore.json
 3d310066580db7f60037b1c18d04abaf070c18e7 assets/lesson26_2/blockstates/azurite_ore.json
 a6aba3578a93d6a0659d8a656ed641b14ca61603 assets/lesson26_2/blockstates/azurite_pressure_plate.json
@@ -29,6 +30,7 @@ f8c29e213de182d96ae9f64fb7b892ddd6171216 assets/lesson26_2/items/azurite_chestpl
 933e68524dd5ac751c3e3bd7fb7bb6b75125a906 assets/lesson26_2/items/azurite_helmet.json
 45db88c103b11db4151e6a194611a02b1d179f1c assets/lesson26_2/items/azurite_hoe.json
 5e0c95c4630790f0cfceeea60142faa61d4a469f assets/lesson26_2/items/azurite_horse_armor.json
+aa29edc9fcfde38c08bed060b9dafbffa68c60f5 assets/lesson26_2/items/azurite_lamp.json
 0b7cf773fb6d518b142e00d4dc82f6b88aede03e assets/lesson26_2/items/azurite_leggings.json
 b751a245aa7d40cce28257b2559e9792dc50c37c assets/lesson26_2/items/azurite_nether_ore.json
 40f02db43fc4d25a48bd2bd6984d36f1e964b2c7 assets/lesson26_2/items/azurite_ore.json
@@ -68,6 +70,8 @@ e0599bb9b4066f84b9808b3307a8a6ffe46be357 assets/lesson26_2/models/block/azurite_
 63e3870b234490f369ce809eb05cbb94f6586399 assets/lesson26_2/models/block/azurite_fence_inventory.json
 c115e39204ef6b582029038b0f6ba0d5856ed653 assets/lesson26_2/models/block/azurite_fence_post.json
 f8269777a236ede7f734665be3da9f447cced2be assets/lesson26_2/models/block/azurite_fence_side.json
+b51fa36aae46bac169482efe0091c84472e1f97f assets/lesson26_2/models/block/azurite_lamp.json
+ed878b350add65fefa3fd22ccebb08206c017e3a assets/lesson26_2/models/block/azurite_lamp_on.json
 d7de4affe8bb791c8758a28ad52cb2bb5862fe0b assets/lesson26_2/models/block/azurite_nether_ore.json
 68f9f7ef2f70a4c969ea4de97801a3259f05ba13 assets/lesson26_2/models/block/azurite_ore.json
 353848569534295015daf5a926e9a044e51b7341 assets/lesson26_2/models/block/azurite_pressure_plate.json
