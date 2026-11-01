@@ -4,15 +4,23 @@ import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.blockstates.MultiVariantGenerator;
+import net.minecraft.client.data.models.model.ItemModelUtils;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.client.data.models.model.TextureMapping;
 import net.minecraft.client.data.models.model.TexturedModel;
+import net.minecraft.client.renderer.item.ClientItem;
+import net.minecraft.client.renderer.item.ConditionalItemModel;
+import net.minecraft.client.renderer.item.ItemModel;
+import net.minecraft.client.renderer.item.properties.conditional.HasComponent;
 import net.minecraft.data.PackOutput;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
+import ru.imaginaerum.lesson26_2.data.ModDataComponents;
 import ru.imaginaerum.lesson26_2.init.blocks.LessonBlocks;
 import ru.imaginaerum.lesson26_2.init.blocks.custom.AzuriteLampBlock;
 import ru.imaginaerum.lesson26_2.init.items.LessonItems;
 import ru.imaginaerum.lesson26_2.init.items.ModArmorMaterials;
+
+import java.util.Optional;
 
 public class ModModelProvider extends ModelProvider {
     public ModModelProvider(PackOutput output) {
@@ -44,6 +52,13 @@ public class ModModelProvider extends ModelProvider {
                 MultiVariantGenerator.dispatch(LessonBlocks.AZURITE_LAMP.get()).with(BlockModelGenerators.createBooleanModelDispatch(AzuriteLampBlock.CLICKED,
                         BlockModelGenerators.plainVariant(blockModels.createSuffixedVariant(LessonBlocks.AZURITE_LAMP.get(), "_on", ModelTemplates.CUBE_ALL, TextureMapping::cube)),
                         BlockModelGenerators.plainVariant(TexturedModel.CUBE.create(LessonBlocks.AZURITE_LAMP.get(), blockModels.modelOutput)))));
+
+
+        ItemModel.Unbaked unbakedDataTablet = ItemModelUtils.plainModel(itemModels.createFlatItemModel(LessonItems.DATA_TABLET.get(), ModelTemplates.FLAT_ITEM));
+        ItemModel.Unbaked unbakedDataTabletOn = ItemModelUtils.plainModel(itemModels.createFlatItemModel(LessonItems.DATA_TABLET.get(), "_on", ModelTemplates.FLAT_ITEM));
+        itemModels.itemModelOutput.register(LessonItems.DATA_TABLET.get(),
+                new ClientItem(new ConditionalItemModel.Unbaked(Optional.empty(), new HasComponent(ModDataComponents.COORDINATES.get(), false),
+                        unbakedDataTabletOn, unbakedDataTablet), new ClientItem.Properties(false, false, 1f)));
 
         itemModels.generateSpear(LessonItems.AZURITE_SPEAR.get());
         /* BLOCKS */

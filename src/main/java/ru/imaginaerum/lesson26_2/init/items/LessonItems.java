@@ -8,6 +8,7 @@ import net.minecraft.world.item.equipment.ArmorType;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
+import ru.imaginaerum.lesson26_2.init.items.custom.DataTabletItem;
 import ru.imaginaerum.lesson26_2.init.items.custom.MetalDetectorItem;
 import ru.imaginaerum.lesson26_2.init.items.food.LessonFood;
 
@@ -51,4 +52,6 @@ public class LessonItems {
 
     public static final DeferredItem<Item> AZURITE_HORSE_ARMOR = LESSON_ITEMS.registerItem("azurite_horse_armor",
             properties -> new Item(properties.horseArmor(ModArmorMaterials.AZURITE_ARMOR_MATERIAL)));
+    public static final DeferredItem<Item> DATA_TABLET = LESSON_ITEMS.registerItem("data_tablet",
+            properties -> new DataTabletItem(properties.stacksTo(1)));
 }

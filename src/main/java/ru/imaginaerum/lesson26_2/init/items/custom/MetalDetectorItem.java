@@ -19,6 +19,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
+import ru.imaginaerum.lesson26_2.data.ModDataComponents;
+import ru.imaginaerum.lesson26_2.init.items.LessonItems;
 import ru.imaginaerum.lesson26_2.init.tags.ModTags;
 
 import java.util.function.Consumer;
@@ -44,14 +46,14 @@ public class MetalDetectorItem extends Item {
         BlockPos positionClicked = context.getClickedPos();
         Player player = context.getPlayer();
 
-        if (!level.isClientSide()) {
+        if(!level.isClientSide()) {
             // We are on the Server
             boolean foundBlock = false;
 
-            for (int i = 0; i <= positionClicked.getY() + 64; i++) {
+            for(int i = 0; i <= positionClicked.getY() + 64; i++) {
                 BlockState blockState = level.getBlockState(positionClicked.below(i));
 
-                if (isValuableBlock(blockState)) {
+                if(isValuableBlock(blockState)) {
                     outputValuableCoordinates(positionClicked.below(i), player, blockState.getBlock());
                     foundBlock = true;
 
@@ -62,6 +64,9 @@ public class MetalDetectorItem extends Item {
                             SoundSource.BLOCKS, 1.5f, 1f);
                     // spawn particles
                     spawnFoundParticles(level, positionClicked, blockState);
+
+                    addDataToDataTablet(player, positionClicked.below(i));
+
                     break;
                 }
             }
@@ -73,7 +78,14 @@ public class MetalDetectorItem extends Item {
 
         return InteractionResult.SUCCESS;
     }
-
+    private void addDataToDataTablet(Player player, BlockPos position) {
+        int slotIndex = player.getInventory().findSlotMatchingItem(new ItemStack(LessonItems.DATA_TABLET.get()));
+        if (slotIndex == -1) {
+            return;
+        }
+        ItemStack dataTablet = player.getInventory().getItem(slotIndex);
+        dataTablet.set(ModDataComponents.COORDINATES, position);
+    }
     private void spawnFoundParticles(Level level, BlockPos positionClicked, BlockState blockState) {
         for (int i = 0; i < 20; i++) {
             ServerLevel serverLevel = (ServerLevel) level;
@@ -85,11 +97,11 @@ public class MetalDetectorItem extends Item {
     }
 
     private void outputNoValuablesFound(Player player) {
-        player.sendSystemMessage(Component.translatable("item.tutorialmod.metal_detector.no_valuables"));
+        player.sendSystemMessage(Component.translatable("item.lesson26_2.metal_detector.no_valuables"));
     }
 
     private void outputValuableCoordinates(BlockPos position, Player player, Block block) {
-        player.sendSystemMessage(Component.translatable("message.yourmod.valuables_found",
+        player.sendSystemMessage(Component.translatable("message.lesson26_2.valuables_found",
                 block.getName(),
                 position.getX(),
                 position.getY(),

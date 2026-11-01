@@ -34,6 +34,7 @@ public class LessonTabs {
                         output.accept(LessonItems.AZURITE.get());
                         output.accept(LessonItems.RAW_AZURITE.get());
                         output.accept(LessonItems.METAL_DETECTOR.get());
+                        output.accept(LessonItems.DATA_TABLET.get());
                         output.accept(LessonItems.ONION.get());
                         output.accept(LessonItems.END_FIRE_STARTER.get());
                         output.accept(LessonItems.AZURITE_AXE.get());

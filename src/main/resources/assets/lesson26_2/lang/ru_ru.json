@@ -7,9 +7,9 @@
   "itemGroup.lesson26_2.lesson_tab_blocks": "Учебная вкладка блоки",
   "item.lesson26_2.metal_detector": "Металлоискатель",
 
-  "item.lesson26_2.metal_detector.no_valuables": "Ничего не найдено!",
 
-  "message.yourmod.valuables_found": "Найдены ценности: %s в (%s, %s, %s)",
+
+  "message.lesson26_2.valuables_found": "Найдены ценности: %s в (%s, %s, %s)",
 
 
   "block.lesson26_2.azurite_block": "Азуритовый блок",
@@ -28,6 +28,8 @@
   "block.lesson26_2.azurite_wall": "Азуритовая стена",
   "block.lesson26_2.azurite_lamp": "Азуритовая лампа",
 
+
+
   "block.lesson26_2.azurite_door": "Азуритовая дверь",
   "block.lesson26_2.azurite_trapdoor": "Азуритовый люк",
 
@@ -44,7 +46,8 @@
   "item.lesson26_2.azurite_boots": "Азуритовые ботинки",
 
   "item.lesson26_2.azurite_horse_armor": "Азуритовая лошадиная броня",
-
+  "item.lesson26_2.data_tablet": "Табличка данных",
   "tooltip.lesson26_2.metal_detector.shift_down": "Обнаруживайте ценности, кликая по блокам",
-  "tooltip.lesson26_2.metal_detector": "Нажмите §eShift§r для получения дополнительной информации"
+  "tooltip.lesson26_2.metal_detector": "Нажмите §eShift§r для получения дополнительной информации",
+  "item.lesson26_2.metal_detector.no_valuables": "Нет данных"
 }
