@@ -1,9 +1,6 @@
 package ru.imaginaerum.lesson26_2.init.items;
 
-import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -54,4 +51,7 @@ public class LessonItems {
             properties -> new Item(properties.horseArmor(ModArmorMaterials.AZURITE_ARMOR_MATERIAL)));
     public static final DeferredItem<Item> DATA_TABLET = LESSON_ITEMS.registerItem("data_tablet",
             properties -> new DataTabletItem(properties.stacksTo(1)));
+
+    public static final DeferredItem<Item> KAUPEN_BOW = LESSON_ITEMS.registerItem("kaupen_bow",
+            properties -> new BowItem(properties.durability(500)));
 }

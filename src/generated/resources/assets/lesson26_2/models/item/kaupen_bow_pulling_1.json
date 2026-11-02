@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "lesson26_2:item/kaupen_bow_pulling_1"
+  }
+}

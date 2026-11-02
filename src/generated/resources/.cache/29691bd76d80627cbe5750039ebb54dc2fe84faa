@@ -1,4 +1,4 @@
-// 26.2	2026-10-28T13:05:24.9986527	Model Definitions - lesson26_2
+// 26.2	2026-11-02T20:55:22.8409592	Model Definitions - lesson26_2
 3e5d88f8eb395c56fd2e5b0eeb2c0b5a37c251b8 assets/lesson26_2/blockstates/azurite_block.json
 e316f240a7c9e30b6f3dfc898cd6e17a578f38ae assets/lesson26_2/blockstates/azurite_button.json
 b0519bd9a1e2433b53dea6889015b99c6569e0a0 assets/lesson26_2/blockstates/azurite_deepslate_ore.json
@@ -45,6 +45,7 @@ ed59e07e8a86330514a807d759067369833ab963 assets/lesson26_2/items/azurite_trapdoo
 87a6082912b2c985a95481098ed1bd0f552c4267 assets/lesson26_2/items/azurite_wall.json
 5b66b8a0b5ba0699fb0b305946e3cfd01f60897d assets/lesson26_2/items/data_tablet.json
 5dc96db6bc78ae3b54dab5c368a9eb80504a89b4 assets/lesson26_2/items/end_fire_starter.json
+37de4d166f86246f3eaff28474783d414af9dd7f assets/lesson26_2/items/kaupen_bow.json
 6cbe0db1cb891a42787c5ed5b489c0a84bda9050 assets/lesson26_2/items/magic_block.json
 e0f05624562803444aed239f419b7c6401cf83f8 assets/lesson26_2/items/metal_detector.json
 1dc4adb6415b7874e0d60078801d3a6b041b43b4 assets/lesson26_2/items/onion.json
@@ -152,6 +153,10 @@ a386dac301254f21c6dcf638442542164a56fc9e assets/lesson26_2/models/item/azurite_l
 c5317f3f9dfbdef28cc431020c03b55fdbe301db assets/lesson26_2/models/item/data_tablet.json
 9e4d33bdd5dca012c83b197e7fc93dc3fd39c9da assets/lesson26_2/models/item/data_tablet_on.json
 2a959b07afc8715d8ed9c6a302cb1467467198d0 assets/lesson26_2/models/item/end_fire_starter.json
+63a399135b705dfea170a842d2a1b54d7c1d67dd assets/lesson26_2/models/item/kaupen_bow.json
+f6c41a82c4ebb601e135da42a5124dd9acc30e7a assets/lesson26_2/models/item/kaupen_bow_pulling_0.json
+df01d43bdea9ba981c5963e84b8b3ab832c809a5 assets/lesson26_2/models/item/kaupen_bow_pulling_1.json
+fd3a8c2c6c16eef0cc93812fe0f3c8dd052163ea assets/lesson26_2/models/item/kaupen_bow_pulling_2.json
 b333ec1b31d7d84fd3990f43264740803fe9021a assets/lesson26_2/models/item/metal_detector.json
 c7df4453b787a7ff8831476856a9ea4434bd6521 assets/lesson26_2/models/item/onion.json
 336738b78ea2652cd4ee6c4b2a895a8bfe192de2 assets/lesson26_2/models/item/raw_azurite.json

@@ -37,6 +37,8 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         tag(ItemTags.AXES).add(LessonItems.AZURITE_AXE.get().builtInRegistryHolder().key());
         tag(ItemTags.HOES).add(LessonItems.AZURITE_HOE.get().builtInRegistryHolder().key());
         tag(ItemTags.SPEARS).add(LessonItems.AZURITE_SPEAR.get().builtInRegistryHolder().key());
+
+        tag(ItemTags.BOW_ENCHANTABLE).add(LessonItems.KAUPEN_BOW.get().builtInRegistryHolder().key());
     }
 
 }

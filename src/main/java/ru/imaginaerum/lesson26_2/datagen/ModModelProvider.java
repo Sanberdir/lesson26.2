@@ -69,6 +69,9 @@ public class ModModelProvider extends ModelProvider {
         blockModels.createTrivialCube(LessonBlocks.AZURITE_END_ORE.get());
         blockModels.createTrivialCube(LessonBlocks.MAGIC_BLOCK.get());
 
+        itemModels.createFlatItemModel(LessonItems.KAUPEN_BOW.get(), ModelTemplates.BOW);
+        itemModels.generateBow(LessonItems.KAUPEN_BOW.get());
+
         blockModels.family(LessonBlocks.AZURITE_BLOCK.get())
                 .stairs(LessonBlocks.AZURITE_STAIRS.get())
                 .slab(LessonBlocks.AZURITE_SLAB.get())

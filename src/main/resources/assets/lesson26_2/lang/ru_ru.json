@@ -49,5 +49,6 @@
   "item.lesson26_2.data_tablet": "Табличка данных",
   "tooltip.lesson26_2.metal_detector.shift_down": "Обнаруживайте ценности, кликая по блокам",
   "tooltip.lesson26_2.metal_detector": "Нажмите §eShift§r для получения дополнительной информации",
-  "item.lesson26_2.metal_detector.no_valuables": "Нет данных"
+  "item.lesson26_2.metal_detector.no_valuables": "Нет данных",
+  "item.lesson26_2.kaupen_bow": "Лук Николя"
 }
