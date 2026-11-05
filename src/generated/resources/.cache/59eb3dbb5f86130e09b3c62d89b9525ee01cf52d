@@ -1,4 +1,4 @@
-// 26.2	2026-10-27T21:39:07.0470313	Loot Tables
+// 26.2	2026-11-05T15:44:55.0741137	Loot Tables
 10a52b5cd7c912549f340ae1aef7ee76ecbfcbf8 data/lesson26_2/loot_table/blocks/azurite_block.json
 0fd84dc270bf87220dcb9f88fd483219813e0bf7 data/lesson26_2/loot_table/blocks/azurite_button.json
 8761c46be224fede90dd3c7709b85382d0e582e8 data/lesson26_2/loot_table/blocks/azurite_deepslate_ore.json
@@ -15,4 +15,5 @@ ea4a93f7ba02dd42d2088aad4fc92d1461727832 data/lesson26_2/loot_table/blocks/azuri
 849f6f3e5cb1500aa1c236d6b92b76dc323abff3 data/lesson26_2/loot_table/blocks/azurite_trapdoor.json
 d224afab2fd72f366279dd771d058e360a10591d data/lesson26_2/loot_table/blocks/azurite_wall.json
 8b798e42f9166a0cd1f954384c3440f6ac4a2ec0 data/lesson26_2/loot_table/blocks/magic_block.json
+bb5077f14015f4372583ad148607fd1a67e3a989 data/lesson26_2/loot_table/blocks/pedestal.json
 7a53f2c95cce14525669472e1557331932263375 data/lesson26_2/loot_table/blocks/raw_azurite_block.json

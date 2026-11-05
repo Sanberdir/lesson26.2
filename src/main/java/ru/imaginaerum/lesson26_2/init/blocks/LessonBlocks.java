@@ -14,6 +14,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.imaginaerum.lesson26_2.Lesson26_2;
 import ru.imaginaerum.lesson26_2.init.blocks.custom.AzuriteLampBlock;
 import ru.imaginaerum.lesson26_2.init.blocks.custom.MagicBlock;
+import ru.imaginaerum.lesson26_2.init.blocks.custom.PedestalBlock;
 import ru.imaginaerum.lesson26_2.init.items.LessonItems;
 
 import java.util.function.Function;
@@ -85,6 +86,9 @@ public class LessonBlocks {
     public static final DeferredBlock<Block> AZURITE_LAMP = registerBlock("azurite_lamp",
             properties -> new AzuriteLampBlock(properties.strength(2F)
                     .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(AzuriteLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final DeferredBlock<Block> PEDESTAL_BLOCK = registerBlock("pedestal",
+            properties -> new PedestalBlock(properties.strength(2F).requiresCorrectToolForDrops()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
         DeferredBlock<T> toReturn = LESSON_BLOCKS.registerBlock(name, function);

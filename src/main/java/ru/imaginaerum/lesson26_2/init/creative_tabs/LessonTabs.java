@@ -76,6 +76,7 @@ public class LessonTabs {
                         output.accept(LessonBlocks.AZURITE_DOOR);
                         output.accept(LessonBlocks.AZURITE_TRAPDOOR);
                         output.accept(LessonBlocks.AZURITE_LAMP);
+                        output.accept(LessonBlocks.PEDESTAL_BLOCK);
 
 
                     }).build());

@@ -84,5 +84,7 @@ public class ModModelProvider extends ModelProvider {
                 .wall(LessonBlocks.AZURITE_WALL.get())
                 .door(LessonBlocks.AZURITE_DOOR.get())
                 .trapdoor(LessonBlocks.AZURITE_TRAPDOOR.get());
+
+        blockModels.createNonTemplateModelBlock(LessonBlocks.PEDESTAL_BLOCK.get());
     }
 }
