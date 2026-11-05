@@ -1,4 +1,4 @@
-// 26.2	2026-11-02T20:55:22.8409592	Model Definitions - lesson26_2
+// 26.2	2026-11-02T21:23:48.4133222	Model Definitions - lesson26_2
 3e5d88f8eb395c56fd2e5b0eeb2c0b5a37c251b8 assets/lesson26_2/blockstates/azurite_block.json
 e316f240a7c9e30b6f3dfc898cd6e17a578f38ae assets/lesson26_2/blockstates/azurite_button.json
 b0519bd9a1e2433b53dea6889015b99c6569e0a0 assets/lesson26_2/blockstates/azurite_deepslate_ore.json
@@ -43,6 +43,7 @@ a19ae702a5329be142f75f70a589439362380b7c assets/lesson26_2/items/azurite_spear.j
 0b2d8957a604708296ffc8ca4747495c57d5bc6c assets/lesson26_2/items/azurite_sword.json
 ed59e07e8a86330514a807d759067369833ab963 assets/lesson26_2/items/azurite_trapdoor.json
 87a6082912b2c985a95481098ed1bd0f552c4267 assets/lesson26_2/items/azurite_wall.json
+4d2d075483f5ddc16adfedc72de306535a0a0c48 assets/lesson26_2/items/blizzard_staff.json
 5b66b8a0b5ba0699fb0b305946e3cfd01f60897d assets/lesson26_2/items/data_tablet.json
 5dc96db6bc78ae3b54dab5c368a9eb80504a89b4 assets/lesson26_2/items/end_fire_starter.json
 37de4d166f86246f3eaff28474783d414af9dd7f assets/lesson26_2/items/kaupen_bow.json

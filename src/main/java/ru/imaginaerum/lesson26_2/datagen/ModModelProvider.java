@@ -72,6 +72,8 @@ public class ModModelProvider extends ModelProvider {
         itemModels.createFlatItemModel(LessonItems.KAUPEN_BOW.get(), ModelTemplates.BOW);
         itemModels.generateBow(LessonItems.KAUPEN_BOW.get());
 
+        itemModels.declareCustomModelItem(LessonItems.BLIZZARD_STAFF.get());
+
         blockModels.family(LessonBlocks.AZURITE_BLOCK.get())
                 .stairs(LessonBlocks.AZURITE_STAIRS.get())
                 .slab(LessonBlocks.AZURITE_SLAB.get())
